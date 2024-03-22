@@ -1,0 +1,54 @@
+.splitright {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    right: 0;
+    background-color: lightblue;
+  }
+  .splitleft {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    background-color:lightblue;
+  }
+   
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+  }
+.qual,.area,.paper,.personal,.about{
+    background-color: rgb(79, 180, 238); 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 200px; 
+    padding-top: 250px;
+    font-size: 45px;
+    text-decoration: none;
+} 
+
+.paper,.personal{
+  padding-top: 150px;
+}
+ .qual{
+  padding-top: 100px;
+ }
+#left{
+    font-size: 30px;
+}
+.about pre{
+    font-size: 30px;
+}
